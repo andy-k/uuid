@@ -8,4 +8,5 @@ end
 
 group :test do
   gem "mocha"
+  gem "test-unit"
 end

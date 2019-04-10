@@ -1,17 +1,20 @@
 PATH
   remote: .
   specs:
-    uuid (2.3.7)
+    uuid (2.3.9)
       macaddr (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    macaddr (1.6.7)
+    macaddr (1.7.1)
       systemu (~> 2.6.2)
     mocha (0.9.12)
+    power_assert (1.1.4)
     rake (0.8.7)
-    systemu (2.6.4)
+    systemu (2.6.5)
+    test-unit (3.3.1)
+      power_assert
     yard (0.6.7)
 
 PLATFORMS
@@ -20,5 +23,9 @@ PLATFORMS
 DEPENDENCIES
   mocha
   rake
+  test-unit
   uuid!
   yard
+
+BUNDLED WITH
+   1.17.2

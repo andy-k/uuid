@@ -6,8 +6,8 @@
 
 require 'test/unit'
 require 'rubygems'
-require 'uuid'
-require 'mocha'
+load File.join(File.dirname(__FILE__), '../lib/uuid.rb')
+require 'mocha/test_unit'
 
 class TestUUID < Test::Unit::TestCase
 
